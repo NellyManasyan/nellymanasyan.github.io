@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#top_div{
+      width: 100%;
+    height:300px;
+    background-position: bottom right;
+    text-align: center;
+
+    }
+    .big_div{
+    width:100%;
+    height:300px;
+    background-color: rgba(103, 22, 149, 0.5);
+    color:white;
+    
+    
+    }  
+    .logo{
+        font-size: 35px;
+        padding:28px;
+    }
+    .tel_number{
+        font-size: 20px;
+        padding:30px;
+    }
+    .menu1>ul{
+        list-style-type: none;
+        overflow:hidden;
+    }
+    .menu1>ul>li a{
+         text-decoration: none; 
+        color:white;
+        font-size: 20px;
+        display: block;
+        padding:30px;
+    }
+    .menu1>ul>li {
+        float: left;
+    }
+     .child_div{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+    
+    
+    } 
+    .big_div>h1{
+        font-size: 7vw;
+        margin:30px
+    }
+    .big_div>p{
+        font-size: 3vw;
+        width: 60%;
+        margin: auto;
+    }
+    
+    
+    .menu2>ul{
+        list-style-type: none;
+        overflow:hidden;
+    }
+    .menu2>ul>li a{
+         text-decoration: none; 
+        color:white;
+        font-size: 20px;
+        display: block;
+        padding:20px;
+    }
+    .menu2>ul>li {
+        float: left;
+    }
+    
+    .menu_div{
+        width: 100%;
+        height: 60px;
+        display: flex;
+      background-color: rgb(137, 30, 173);
+        justify-content: space-around;
+    
+    
+    } 
+    #about{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 900px;
+        align-items: center;
+    }
+    .about_image{
+        width: 45%;
+        height: 560px;
+        background-image:url(../image/Без\ названия.jpeg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .about_text{
+        width: 45%;
+        height: 560px;
+        padding:1px 5px;
+        text-align: center;
+    
+    }
+    .about_text>h1{
+        font-size: 50px; 
+        margin: 30px 5px;
+    }
+    .about_text>p{
+        font-size: 25px;
+        color: grey;
+    }
+    #depoit{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 890px;
+        align-items: center;
+    }
+    
+    .avand{
+        width: 45%;
+        height: 560px;
+        background-color:rgb(215, 21, 219);
+        
+    
+    }
+    .avand>input{
+        width: 80%;
+        height: 40px;
+        background-color: rgb(242, 193, 243);
+        padding: 10px;
+        margin: 10px 50px;
+        font-size: 20px;
+    }
+    .avand>label{
+        
+        margin:10px 50px;
+        font-size: 25px;
+        color: white;
+    }
+    .avand>h1{
+       text-align: center;
+        color: white;
+        margin: 10px;
+    }
+    .ard1{ 
+        width: 80%;
+        background-color: rgb(242, 193, 243);
+        padding: 8px;
+        margin:  10px 50px;
+       color: rgba(146, 7, 125, 0.511);
+
+
+    }
+
+    .depoit_text{
+        width: 45%;
+        height: 550px;
+        padding:50px;
+        text-align: center;
+    background-color: black;
+    }
+    .depoit_text>h1{
+        font-size: 50px; 
+        margin: 30px 5px;
+    }
+    .depoit_text>p{
+        font-size: 25px;
+        color: grey;
+    }
+    .section-button{
+        width:100%;
+        padding:22px;
+        background-color: rgb(215, 21, 219);
+        color:white;
+        font-size:22px;
+         text-align:left;
+    }
+    .fa-solid{
+        float:right;
+    }
+    .blockDiv{
+        width: 90%;
+        margin:auto;
+    
+    }
+    .content{
+        padding:2px;
+    background-color: rgb(200, 136, 183);
+    text-align: justify;
+    color:white;
+    display: none;/*դեպքում .content-ում գրավածը  կանհետանա*/
+    }
+     .fa-minus{
+        display: none;/*կկորչի  մինուս նշանը և կմնա  միայն  section 1-ը և  պլուս  նշանը*/
+    } 
+    .hide{
+        display: none;
+    }
+    .blockcl{
+        display:block;
+    }
+    .img_serv{
+        width: 100%;
+        height: 360px;
+        background-color: white;
+    }
+    .image1{
+        background-image:url(../image/Без\ названия\ \(1\).jpeg);
+        background-size: cover ;
+        background-repeat: no-repeat;
+    }
+    #loan{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 890px;
+        align-items: center;
+    }
+    .work{
+        width: 43%;
+        height: 560px;
+        margin: 20px;
+        background-color:rgb(215, 21, 219);
+
+        
+}
+img{ 
+    width:87%;
+    height: 350px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    margin: 5px 38px;
+        
+}
+.work_div{
+    width: 43%;
+    height: 560px;
+    padding:50px;
+    margin: 20px;
+    text-align: center;
+background-color: rgb(224, 192, 192);
+}
+.work_div>label{
+
+    margin:2px 20px;
+    font-size: 25px;
+    color: white;
+}
+.work_div>h1{
+    text-align: center;
+     color: white;
+ } 
+ .work{
+    text-align: center;
+     color: white;
+ }
+.work_div>input{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(242, 193, 243);
+    padding: 10px;
+    margin: 10px 50px;
+    font-size: 20px;
+}
+.ard2{ 
+    width: 80%;
+    background-color: rgb(242, 193, 243);
+    padding: 8px;
+    margin:  10px 50px;
+   color: rgba(146, 7, 125, 0.511);
+
+
+}
+#form_div{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    font-size: 30px;
+}
+#form_div>p{
+    width: 65%;
+    margin: 15px auto;
+
+}
+input, textarea{
+    width: 65%;
+    border:none;
+    border-bottom: 1px solid grey;
+    padding:20px;
+    font-size: 20px;
+}
+.form_button{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(215, 21, 219);
+    padding: 20px 40px;
+    border: none;
+    margin:30px;
+
+}
+#form_div>h1{
+    margin: 40px;
+}
+.fa-brands{
+    color: rgb(215, 21, 219);
+    margin-bottom: 100px;
+}
+    
