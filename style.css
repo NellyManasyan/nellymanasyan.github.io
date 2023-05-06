@@ -93,7 +93,7 @@
     .about_image{
         width: 45%;
         height: 560px;
-        background-image:url(../image/Без\ названия.jpeg);
+        background-image:url(Без\ названия.jpeg);
         background-repeat: no-repeat;
     background-size: cover;
     }
@@ -209,7 +209,7 @@
         background-color: white;
     }
     .image1{
-        background-image:url(../image/Без\ названия\ \(1\).jpeg);
+        background-image:url(Без\ названия\ \(1\).jpeg);
         background-size: cover ;
         background-repeat: no-repeat;
     }
