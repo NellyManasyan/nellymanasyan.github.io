@@ -29,6 +29,8 @@ sectionButton[i].addEventListener("click",function(){//երբ որ  քլիկ ա�
     
 })
 }
+let workDiv=document.querySelector(".work_div")
+let parBer=document.querySelector(".parberutyun")
 let ekHark1=document.querySelector(".ekHark");
 let socVchar=document.querySelector(".socVchar");
 let droshmGumar=document.querySelector(".droshmGumar");
@@ -54,28 +56,5 @@ else{
 
 }
 mnacord.innerHTML=Math.floor(+ashxGumar.value-(ashxGumar.value*20/100)-(ashxGumar.value*5/100)-droshmGumar.innerHTML)
-}
-let patasxan="";
-let calculatorDiv=document.querySelector(".calculator_div");
-let patasxanDiv=document.querySelector(".patasxan");
-let bigButton=document.querySelector("big_button");
-let signs=["+", "-","*","/","%"];
-let calculatorSmall=document.querySelector(".calculatorSmall");
-calculatorSmall.onclick=function(){
-calculatorDiv.classList.toggle("block");
-patasxan="";
-patasxanDiv.innerHTML="0"
-}
-bigButton.forEach(function(button){
-    button.addEvenListener("click",function(){
-        if(button.innerHTML!="="){
-            if(signs.includes(button.innerHTML)||signs.includes(patasxanDiv.innerHTML)||patasxanDiv.innerHTML=="0"){
-                patasxanDiv.innerHTML=button.innerHTML;
 
-            }else{
-                patasxanDiv.innerHTML+=button.innerHTML;
-            }
-            patasxan+=button.innerHTML;
-        }
-    })
-})
+}
