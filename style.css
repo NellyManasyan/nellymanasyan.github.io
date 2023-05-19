@@ -120,9 +120,10 @@ background-color: rgba(103, 22, 149, 0.5);
          color: rgba(41, 3, 63, 0.5);
     }
     .about_text{
-        width: 46%;
-        height: 565px;
-        padding:1px 5px;
+        width: 52%;
+        height: 555px;
+        padding:1px 2px;
+        margin: 0px  30px;
         text-align: center;
     
     }
@@ -205,12 +206,14 @@ background-color: rgba(103, 22, 149, 0.5);
         float:right;
     }
     .blockDiv{
-        width: 90%;
-        margin:auto;
+        width: 100%;
+       
+        
     
     }
     .content{
-    padding:2px;
+    height: 480px;
+    padding:8px;
     background-color:rgba(215, 162, 246, 0.5);
     text-align: justify;
     color:rgba(16, 1, 24, 0.5);
@@ -389,8 +392,8 @@ img{
         
 }
 .image1{
-    width:87%;
-    height: 285px;
+    width:100%;
+    height: 320px;
     margin:auto;
 }
     .logo{
@@ -490,7 +493,7 @@ img{
         height: auto;
     } 
     .about_text{
-        width: 113%;
+        width:100%;
         height: auto;
     }
     .work{
@@ -503,6 +506,10 @@ img{
     }
     .about_text1{
         order:1;
+    }
+    .image1{
+        width: 100%;
+        height: 350px;
     }
     .about_image{
         order:2;
