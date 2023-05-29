@@ -13,7 +13,7 @@
     .big_div{
     width:100%;
     height:500px;
-    background-image:url(nkar_backgroundColor_blueviolet_headingdiv.jpeg);
+    background-image:url(../image/nkar_backgroundColor_blueviolet_headingdiv.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
@@ -35,7 +35,7 @@
     .menu1>ul>li a{
          text-decoration: none; 
         color:white;
-        font-size: 320px;
+        font-size: 20px;
         display: block;
         padding:30px;
     }
@@ -97,7 +97,7 @@ background-color: rgba(103, 22, 149, 0.5);
     .about_image{
         width: 52%;
         height:590px;
-        background-image:url(companyPohotoNeMsFinance_AboutOurCompany.jpeg);
+        background-image:url(../image/companyPohotoNeMsFinance_AboutOurCompany.jpeg);
         background-repeat: no-repeat;
     background-size: cover;
     }
@@ -110,7 +110,7 @@ background-color: rgba(103, 22, 149, 0.5);
     
     }
     .about_text1>h1{
-        font-size: 25px;
+        font-size: 20px; 
         margin: 30px 5px;
         color: rgba(24, 2, 37, 0.5);
     
@@ -207,7 +207,6 @@ background-color: rgba(103, 22, 149, 0.5);
     }
     .blockDiv{
         width: 100%;
-        
        
         
     
@@ -235,7 +234,7 @@ background-color: rgba(103, 22, 149, 0.5);
         background-color: white;
     }
     .image1{
-        background-image:url(avandBackgroungColor_photo_NeMsFinance.jpeg);
+        background-image:url(../image/avandBackgroungColor_photo_NeMsFinance.jpeg);
         background-size: cover ;
         background-repeat: no-repeat;
     }
@@ -357,10 +356,12 @@ input, textarea{
     margin-bottom: 100px;
 }
  body{
-    background-image: url(bodyBackGroundColor_image_NeMsFinanceCompany.jpeg);
+    background-image: url(../image/bodyBackGroundColor_image_NeMsFinanceCompany.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
  }
+
+
  @media only screen and (max-width: 928px){
     
         
