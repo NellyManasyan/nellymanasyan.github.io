@@ -253,7 +253,7 @@ button>a {
         width: 100%;
         height: auto;
         text-align:start;
-        font-size:80px;
+        font-size:30px;
         
     }
     .skills_heading{
@@ -326,7 +326,7 @@ button>a {
         width: 100%;
         height: auto;
         text-align: center;
-        font-size:80px;
+        font-size:30px;
     }
 }
 @media  only screen  and (max-width: 600px) {
@@ -367,7 +367,7 @@ button>a {
         width: 100%;
         height: auto;
         text-align:start;
-        font-size:80px;
+        font-size:30px;
         
     }
     .skills_heading{
@@ -440,7 +440,7 @@ button>a {
         width: 100%;
         height: auto;
         text-align: center;
-        font-size:80px;
+        font-size:30px;
     }
     }
 
