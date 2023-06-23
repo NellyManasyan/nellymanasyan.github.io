@@ -221,7 +221,7 @@ button>a {
         flex-direction: column;
     }
     .text{
-        width: 100%;
+        width: 50%;
         text-align: left;
     }
     .about_image{
@@ -286,7 +286,7 @@ button>a {
         flex-direction: column;
     }
     .portfolio_heading{
-        width: 100%;
+        width: 90%;
         height: auto;  
     }
     .portfolio_item{
@@ -295,11 +295,11 @@ button>a {
     }
     .portfolio_books{
         text-align: center;
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     .portfolio_abc{
-        width: 100%;
+        width: 90%;
         height: auto;
         text-align: center;
     }
@@ -333,7 +333,7 @@ button>a {
         flex-direction: column;
     }
     .text{
-        width: 100%;
+        width: 50%;
         text-align: left;
     }
     .about_image{
@@ -398,7 +398,7 @@ button>a {
         flex-direction: column;
     }
     .portfolio_heading{
-        width: 100%;
+        width: 90%;
         height: auto;  
     }
     .portfolio_item{
@@ -407,11 +407,11 @@ button>a {
     }
     .portfolio_books{
         text-align: center;
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     .portfolio_abc{
-        width: 100%;
+        width: 90%;
         height: auto;
         text-align: center;
     }
