@@ -319,13 +319,14 @@ button>a {
     }
     .map{
         
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .contact{
         width: 100%;
         height: auto;
         text-align: center;
+        font-size:80px;
     }
 }
 @media  only screen  and (max-width: 600px) {
@@ -366,7 +367,7 @@ button>a {
         width: 100%;
         height: auto;
         text-align:start;
-        font-size:30px;
+        font-size:80px;
         
     }
     .skills_heading{
@@ -432,13 +433,14 @@ button>a {
     }
     .map{
         
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .contact{
         width: 100%;
         height: auto;
         text-align: center;
+        font-size:80px;
     }
     }
 
