@@ -1,0 +1,538 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#top_div{
+      width: 100%;
+    height:500px;
+    background-position: bottom right;
+    text-align: center;
+
+    }
+    .big_div{
+    width:100%;
+    height:500px;
+    background-image:url(../image/nkar_backgroundColor_blueviolet_headingdiv.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    
+    
+    }  
+    .logo{
+        font-size: 35px;
+        padding:28px;
+    }
+    .tel_number{
+        font-size: 20px;
+        padding:30px;
+    }
+    .menu1>ul{
+        list-style-type: none;
+        overflow:hidden;
+    }
+    .menu1>ul>li a{
+         text-decoration: none; 
+        color:white;
+        font-size: 20px;
+        display: block;
+        padding:30px;
+    }
+    .menu1>ul>li {
+        float: left;
+      
+    }
+     .child_div{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+    
+    
+    } 
+    .big_div>h1{
+        font-size: 7vw;
+        margin:30px
+    }
+    .big_div>p{
+        font-size: 3vw;
+        width: 60%;
+        margin: auto;
+    }
+    
+    
+    .menu2>ul{
+        list-style-type: none;
+        overflow:hidden;
+    }
+    .menu2>ul>li a{
+         text-decoration: none; 
+        color:white;
+        font-size: 21px;
+        display: block;
+         padding:   15px 4px;
+    }
+    .menu2>ul>li {
+        float: left;
+    }
+    
+    .menu_div{
+        width: 100%;
+        height: 50px;
+        display: flex;
+       background-color: rgba(103, 22, 149, 0.5);
+        justify-content: space-around;
+    
+    
+    } 
+    #about{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 900px;
+        align-items: center;
+    }
+    .about_image{
+        width: 52%;
+        height:590px;
+        background-image:url(../image/companyPohotoNeMsFinance_AboutOurCompany.jpeg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .about_text1{
+        width: 45%;
+        height: 560px;
+        padding:1px 5px;
+        text-align: center;
+        
+    
+    }
+    .about_text1>h1{
+        font-size: 20px; 
+        margin: 30px 5px;
+        color: rgba(24, 2, 37, 0.5);
+    
+    }
+    .about_text1>p{
+        font-size: 25px;
+         color: rgba(41, 3, 63, 0.5);
+    }
+    .about_text{
+        width: 52%;
+        height: 555px;
+        padding:1px 2px;
+        margin: 0px  30px;
+        text-align: center;
+    
+    }
+    .about_text>h1{
+        font-size: 50px; 
+        margin: 30px 5px;
+    }
+    .about_text>p{
+        font-size: 25px;
+        color: grey;
+    }
+    #depoit{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 890px;
+        align-items: center;
+    }
+    
+    .avand{
+        width: 45%;
+        height: 556px;
+        background-color:rgba(103, 22, 149, 0.5);
+        
+    
+    }
+    .avand>input{
+        width: 80%;
+        height: 40px;
+        background-color: rgba(215, 162, 246, 0.5);
+        padding: 10px;
+        margin: 10px 50px;
+        font-size: 20px;
+    }
+    .avand>label{
+        
+        margin:10px 50px;
+        font-size: 25px;
+        color: white;
+    }
+    .avand>h1{
+       text-align: center;
+        color: white;
+        margin: 10px;
+    }
+    .ard1{ 
+        width: 80%;
+        background-color: rgba(215, 162, 246, 0.5);
+        padding: 8px;
+        margin:  10px 50px;
+       color:rgba(19, 2, 30, 0.5);
+
+
+    }
+
+    .depoit_text{
+        width: 45%;
+        height: 550px;
+        padding:50px;
+        text-align: center;
+    background-color: black;
+    }
+    .depoit_text>h1{
+        font-size: 50px; 
+        margin: 30px 5px;
+    }
+    .depoit_text>p{
+        font-size: 25px;
+        color: grey;
+    }
+    .section-button{
+        width:100%;
+        padding:22px;
+        background-color: rgba(103, 22, 149, 0.5);
+        color:white;
+        font-size:22px;
+         text-align:left;
+    }
+    .fa-solid{
+        float:right;
+    }
+    .blockDiv{
+        width: 100%;
+       
+        
+    
+    }
+    .content{
+    height: 480px;
+    padding:8px;
+    background-color:rgba(215, 162, 246, 0.5);
+    text-align: justify;
+    color:rgba(16, 1, 24, 0.5);
+    display: none;/*դեպքում .content-ում գրավածը  կանհետանա*/
+    }
+     .fa-minus{
+        display: none;/*կկորչի  մինուս նշանը և կմնա  միայն  section 1-ը և  պլուս  նշանը*/
+    } 
+    .hide{
+        display: none;
+    }
+    .blockcl{
+        display:block;
+    }
+    .img_serv{
+        width: 100%;
+        height: 360px;
+        background-color: white;
+    }
+    .image1{
+        background-image:url(../image/avandBackgroungColor_photo_NeMsFinance.jpeg);
+        background-size: cover ;
+        background-repeat: no-repeat;
+    }
+    #salary{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 890px;
+        align-items: center;
+    }
+    .work{
+        width: 45%;
+        height: 560px;
+        margin: 20px;
+        background-color:rgba(103, 22, 149, 0.5);
+        font-size: 15px;
+
+        
+}
+img{ 
+    width:99%;
+    height: 300px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+   
+        
+}
+.work_div{
+    width: 43%;
+    height: 560px;
+    padding:20px 40px;
+    margin: 20px;
+    
+    background-color:rgba(103, 22, 149, 0.5);
+}
+
+ .work{
+    padding: 30px;
+    text-align:justify;
+     color: white;
+ }
+ .work>h1{
+text-align: center;
+margin-bottom: 20px;
+ }
+
+.work_div>input{
+    width: 90%;
+    height: 50px;
+    background-color: rgba(215, 162, 246, 0.5);
+   font-size: 20px;
+   margin:  20px   0px; 
+    color: rgb(21, 20, 20);
+}
+.work_div>label{
+     
+    color: white;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+.work_div>h1{
+   padding-bottom: 20px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.ard2{ 
+    width: 90%;
+    background-color: rgba(215, 162, 246, 0.5);
+    padding: 15px;
+     margin:  20px   0px; 
+    text-align: left;
+   color: rgba(19, 2, 30, 0.5);;
+
+
+}
+
+#form_div{
+    width: 100%;
+    height:auto;
+    background-color: rgba(215, 162, 246, 0.5);
+    text-align: center;
+    font-size: 30px;
+}
+#form_div>p{
+    width: 65%;
+    margin: 15px auto;
+    color: rgba(42, 4, 63, 0.5);
+
+}
+input, textarea{
+    width: 65%;
+    border:none;
+    border-bottom: 1px solid grey;
+    padding:20px;
+    font-size: 20px;
+}
+.form_button{
+    font-size: 18px;
+    color: white;
+    background-color: rgba(103, 22, 149, 0.5);
+    padding: 20px 40px;
+    border: none;
+    margin:30px;
+
+}
+#form_div>h1{
+    margin: 70px;
+    color: rgba(21, 2, 33, 0.5);
+}
+#form_div>h2{
+    margin: 70px;
+    color: rgba(21, 2, 33, 0.5);
+}
+
+.fa-brands{
+    color: rgba(59, 6, 89, 0.5);
+    margin-bottom: 100px;
+}
+ body{
+    background-image: url(../image/bodyBackGroundColor_image_NeMsFinanceCompany.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+ @media only screen and (max-width: 928px){
+    
+        
+.child_div{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.child_div>h1{
+    text-align: center;  
+}
+.work_div>input{
+    width: 90%;
+    margin:  20px   0px; 
+}
+.work_div>.ard2{
+    width: 90%;
+    margin:  20px   0px; 
+}
+.work{
+    font-size: 14px;
+}
+
+img{ 
+    width:97%;
+    height: 200px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    margin:auto;
+        
+}
+.image1{
+    width:100%;
+    height: 320px;
+    margin:auto;
+}
+    .logo{
+        text-align: left;
+    }
+    .tel_number{
+        text-align: left;
+    }
+    #about{
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .about_text1{
+        width: 100%;
+    }
+    .about_image{
+        width: 100%;
+        height: 800px;
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    #form_div{
+        font-size: 25px;
+    }
+    .menu_div{
+        
+            height: auto;
+            flex-direction: column;
+        }
+    }
+    
+
+ 
+@media  only screen  and (max-width: 600px) {
+    #top_div>.big_div>.child_div>.menu1>ul>li{
+        float: none;
+    }
+    .menu_div>.menu2>ul>li{
+        float: none;
+    }
+    .menu_div{
+        height: auto;
+    }
+    .work_div>input{
+        width: 90%;
+        margin:  20px   0px; 
+    }
+    .work_div>.ard2{
+        width: 90%;
+        margin:  20px   0px; 
+    }
+    .logo{
+        text-align:center;
+        }
+    .tel_number{
+            text-align: center;
+        }
+    .child_div{
+            height: auto;
+            flex-direction: column;
+        }
+    .big_div{
+        width: 100%;
+            height: auto;
+             padding-bottom: 50px;
+
+    }
+    #about{
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .about_image{
+        width: 100%;
+    }
+ .about_image{
+        background-position: center center;
+    } 
+     .about_text1{
+        width: 100%;
+        height: auto;
+    } 
+    #depoit{
+        height: auto;
+        flex-direction: column;
+        
+    }
+    #salary{
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .avand{
+        width: 100%;   
+        height: auto;
+    } 
+    .about_text{
+        width:100%;
+        height: auto;
+    }
+    .work{
+        width: 100%;
+        height: auto;
+    }
+    .work_div{
+        width: 100%;
+        height: auto;
+    }
+    .about_text1{
+        order:1;
+    }
+    .image1{
+        width: 100%;
+        height: 300px;
+    }
+    .about_image{
+        order:2;
+    }
+    .avand{
+        order:4;
+    }
+    .about_text{
+        order:3;
+    }
+    .work{
+        order:5;
+    }
+    .work_div{
+        order:6;
+    }
+    #form_div>h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    #form_div>h2{
+        text-align: center;
+        font-size: 20px;
+    }
+}

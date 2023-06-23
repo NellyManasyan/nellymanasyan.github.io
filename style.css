@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    color:antiquewhite;
+    background-color: #000;
+    text-transform: uppercase;
+    font-size: 120px;
+    font-weight: bold;
+    overflow: hidden;
+    padding:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width:60%;
+    position: relative;
+    left: 0;
+    top: 100px;
+    animation: move 1s linear;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url(../image/Snapchat-584798757.jpg);
+    
+}
+@keyframes move {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+.about_heading{
+    width: 100%;
+    padding: 50px 100px;
+    font-size: 50px;
+    text-align: center;
+}
+#about{
+   
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 50px 0px;
+}
+.about_body{
+    display: flex;
+    justify-content: center;
+}
+.about_contact{
+    width: 45%;
+    height: 400px;
+    padding:50px;
+    
+    text-align:start;
+    font-size: 28px;
+}
+    
+.about_text{
+    width: 40%;
+    height: 400px;
+    padding:10px 10px;
+     text-align: center; 
+     font-size: 22px;
+
+}
+.about_text>h1{
+    font-size: 50px; 
+    margin: 30px 5px;
+}
+
+.line_div{
+    border-top: 4px solid rgb(181, 148, 106);
+    width: 270px;
+    height: 10px;
+    margin:  10px auto;
+}
+.fa-solid,.fa-brands{
+    color: rgb(118, 96, 67);
+}
+
+#portfolio{
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 50px 0px;
+
+}
+.portfolio_heading{
+    width: 100%;
+    padding: 50px 100px;
+    font-size: 50px;
+    text-align: center; 
+}
+.portfolio_item{
+    display: flex;
+    justify-content: center;  
+}
+.portfolio_books{
+    width: 40%;
+    height: 500px;
+    padding:10px 90px;  
+}
+.portfolio_abc{
+    width: 40%;
+    height: 500px;
+    padding:10px 90px;
+}
+.my_work{
+     width: 100%;
+    height: 500px; 
+}
+.finance{
+    width: 100%;
+    height: 500px;
+} 
+button{
+width: 100%;
+height: 50px; 
+border-radius: 30px;
+text-align: center;
+
+font-size: 30px;
+background-color: rgb(181, 148, 106);
+}
+.DownloadCV{
+    padding:5px 20px;
+    border-radius: 30px;
+    text-align: center;
+    background-color:rgb(181, 148, 106);
+
+}
+button>a {
+    text-decoration: none;
+    color: black;
+}
+.skills_heading{
+    width: 100%;
+    padding: 50px 100px;
+    font-size: 50px;
+    text-align: center;
+}
+#my_skills{
+   
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 50px 0px;
+}
+.skills_body{
+    display: flex;
+    justify-content: center;
+}
+.Hard_skills{
+    width: 40%;
+    height: 1000px;
+    padding:10px 90px;
+    
+    text-align:start;
+    font-size: 30px;
+}
+    
+.soft_skills{
+    width: 40%;
+    height: 400px;
+    padding:10px 90px;
+    
+    text-align:start;
+    font-size: 30px;
+
+}
+.soft_skills>h1{
+    font-size: 50px; 
+    margin: 30px 5px;
+}
+#location{
+   
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 50px 0px;
+}
+.location_body{
+    display: flex;
+    justify-content: center;
+}
+
+    
+.contact{
+    width:45%;
+    height: 400px;
+    padding:10px 90px;
+    background-color: antiquewhite;
+    text-align:start;
+    font-size: 30px;
+
+}
+.location_heading{
+    width: 100%;
+    padding: 50px 100px;
+    font-size: 50px;
+    text-align: center;
+}
+@media only screen and (max-width: 928px){
+    .container{
+        height: auto;
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+        text-align: left;
+    }
+    .about_image{
+        width: 100%;
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    #about{
+        width: 100%;
+        height: auto;
+        flex-direction: column; 
+        
+    }
+    .about_heading{
+        width: 100%;
+        height: auto;
+    }
+    .about_body{
+        display:block; 
+        justify-content: center;
+    }
+    .about_text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 20px  30px;
+    }
+    .about_contact{
+        width: 100%;
+        height: auto;
+        text-align:start;
+        
+    }
+    .skills_heading{
+        width: 100%;
+        height: auto;
+
+    }
+    .skills_body{
+        display:block;
+    
+    }
+    .soft_skills{
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .Hard_skills{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    #my_skills{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+      
+    }
+    #portfolio{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .portfolio_heading{
+        width: 100%;
+        height: auto;  
+    }
+    .portfolio_item{
+        display:block;
+    
+    }
+    .portfolio_books{
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .portfolio_abc{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    #location{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .location_heading{
+        width: 100%;
+        height: auto;  
+    }
+    .location_body{
+        display:block;
+    
+    }
+    .map{
+        
+        width: 100%;
+        height: auto;
+    }
+    .contact{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}
+@media  only screen  and (max-width: 600px) {
+    .container{
+        height: auto;
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+        text-align: left;
+    }
+    .about_image{
+        width: 100%;
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    #about{
+        width: 100%;
+        height: auto;
+        flex-direction: column; 
+        
+    }
+    .about_heading{
+        width: 100%;
+        height: auto;
+    }
+    .about_body{
+        display:block; 
+        justify-content: center;
+    }
+    .about_text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 20px  30px;
+    }
+    .about_contact{
+        width: 100%;
+        height: auto;
+        text-align:start;
+        
+    }
+    .skills_heading{
+        width: 100%;
+        height: auto;
+
+    }
+    .skills_body{
+        display:block;
+    
+    }
+    .soft_skills{
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .Hard_skills{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    #my_skills{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+      
+    }
+    #portfolio{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .portfolio_heading{
+        width: 100%;
+        height: auto;  
+    }
+    .portfolio_item{
+        display:block;
+    
+    }
+    .portfolio_books{
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .portfolio_abc{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    #location{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .location_heading{
+        width: 100%;
+        height: auto;  
+    }
+    .location_body{
+        display:block;
+    
+    }
+    .map{
+        
+        width: 100%;
+        height: auto;
+    }
+    .contact{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    }
+
+
